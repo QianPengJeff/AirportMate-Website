@@ -1,0 +1,287 @@
+/*******by Qian PENG*******/
+html *{
+	font-family: 'Roboto', sans-serif;
+	color: #4c4f5f;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	background-color: #f5f5f5;
+	color: ;
+}
+
+nav{
+	background-color: white !important;
+	border: 1px solid transparent;
+}
+
+.navbar{
+	padding: 0;
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover {
+    color: #53a1d2;
+    border-bottom: 2px solid #53a1d2;
+    background: none;
+}
+
+.nav li{
+	color: #4c4f5f !important;
+}
+
+#brand{
+	color: #53a1d2;
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+#home img{
+	width: 300px;
+}
+
+.btn-round {
+	border-radius: 24px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.shadow{
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, .25);
+}
+
+.defult-color{
+	background-color: #53a1d2;
+	color: white;
+}
+
+#learn:hover{
+	background-color: #53a1d2;
+	color: white;
+	transition: 1s;
+}
+
+#download:hover{
+	background-color: white;
+	/*color: #53a1d2;*/
+	transition: 1s;
+}
+
+.introduce{
+	display: inline-block;
+	margin: 2px 0;
+}
+
+.introduce img{
+	width: 50px;
+	float: left;
+}
+
+.introduce p{
+	float: left;
+	font-size: 1em;
+	width: 310px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+#img1{
+	width: 350px;
+	margin-top: 50px;
+}
+
+#email{
+	width: 100%;
+	height: 220px;
+	padding: 20px;
+	background-color: #53a1d2;
+	margin-top: 50px;
+	color: white;
+	display: inline-block;
+}
+
+#email h3,#email h5{
+	color: white;
+}
+
+#email-input{
+	text-align: center;
+	width: 500px;
+	height: 44px;
+	border-radius: 25px;
+	font-size: 1.3em;
+	border: none;
+}
+
+.input:focus{
+	border: none;
+}
+
+#about p{
+	margin-top: 10px;
+	font-size: 1.1em;
+	text-align: left;
+	line-height: 2em;
+}
+
+#show-more{
+	margin-top: 100px;
+}
+
+#show-more:hover{
+	background-color: white;
+	transition: 1s;
+}
+
+#dowload-part{
+	width: 100%;
+	height: 220px;
+	padding: 20px;
+	background-color: #53a1d2;
+	/*margin-top: 60px;*/
+	color: white;
+	display: inline-block;
+}
+
+#dowload-part h3{
+	color: white;
+}
+
+.btn-store{
+	background-color: white;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.btn-store:hover i,.btn-store:hover{
+	background-color: #53a1d2;
+	color: white;
+	transition: 1s;
+}
+
+.social{
+	font-size: 1.5em;
+}
+
+.social:hover i{
+	color: #53a1d2;
+	transition: 1s;
+}
+
+/*@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}*/
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.features-section {
+    height: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+    background: #eee;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 104px;
+    text-align: center;
+    background: #eee;
+}
+
+footer {
+    /*height: 100%;*/
+    padding-top: 110px;
+    padding-bottom: 10px;
+    text-align: center;
+    /*background: #fff;*/
+}
+
+@media (max-width:1200px) {
+	#screens, #collection, #side-img{
+		display: none;
+	}
+	
+	#intro{
+		text-align: center;
+	}
+	
+	#email-input{
+		width: 300px
+	}
+	
+	#about-art{
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	
+	#about-art div{
+		text-align: center;
+	}
+	
+	#about-art p{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media (max-width:768px) {
+	#screens, #collection, #side-img{
+		display: none;
+	}
+	
+	#intro{
+		text-align: center;
+	}
+	
+	#email-input{
+		width: 300px
+	}
+	
+	#about-art{
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	
+	#about-art div{
+		text-align: center;
+	}
+	
+	#about-art p{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.btn-store{
+		background-color: white;
+		margin: 5px 100px;
+	}
+	
+	#dowload-part{
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+}
